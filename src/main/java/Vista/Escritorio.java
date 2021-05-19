@@ -73,7 +73,7 @@ public class Escritorio extends javax.swing.JFrame {
 
     private void openMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openMenuItemActionPerformed
         // TODO add your handling code here:
-        Producto Pr1 =  new Producto();
+        InterfazProducto Pr1 =  new InterfazProducto();
         this.add(Pr1);
         Pr1.show();
     }//GEN-LAST:event_openMenuItemActionPerformed
